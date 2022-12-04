@@ -1,0 +1,70 @@
+acelib '/srv/sci/pack/nuclear-data/endfb_71/ace/xsdata.endfb71'
+bralib '/srv/sci/pack/nuclear-data/endfb_71/bralib.endfb71'
+declib '/srv/sci/pack/nuclear-data/endfb_71/decay/rdd.endfb71'
+nfylib '/srv/sci/pack/nuclear-data/endfb_71/nfy/nfy.endfb71'
+sfylib '/srv/sci/pack/nuclear-data/endfb_71/sfy/sfy.endfb71'
+
+therm lwe70  lwtr.16t
+
+/* Composition restart file definition */
+rfw /scratch/s1/fgrimald/GU3_cycle16/Serpent2/Concentrations_Cycle_16
+
+/* UO2 fuel with enrichment 4.1% */
+mat fuel_1 -10.4 tmp 1200 burn 1
+92234.12c 9.90723e-06
+92235.12c 0.000963007
+92238.12c 0.0222307
+8016.12c 0.0464201
+8017.12c 1.85755e-05
+
+/* UO2 fuel with enrichment 4.1% - Fuel sample */
+mat fuel_3 -10.4 tmp 1200 burn 1
+92234.12c 9.90723e-06
+92235.12c 0.000963007
+92238.12c 0.0222307
+8016.12c 0.0464201
+8017.12c 1.85755e-05
+
+/* Helium gap material */
+mat He_2 0.000123372 tmp 600
+He-3.06c 2.46744e-10
+He-4.06c 0.000123372
+
+/* Borated water - 638 ppm B */
+mat water -0.7042 tmp 600 moder lwe70 1001
+1001.06c 0.0470654
+1002.06c 5.41314e-06
+8016.06c 0.0235265
+8017.06c 8.94345e-06
+5010.06c 5.37619e-06
+5011.06c 1.96183e-05
+
+/* Zircaloy cladding */
+mat clad_3 -6.55 tmp 600
+40090.06c 2.18292E-02
+40091.06c 4.76042E-03
+40092.06c 7.27640E-03
+40094.06c 7.37399E-03
+40096.06c 1.18798E-03
+26054.06c 9.09090E-06
+26056.06c 1.42580E-04
+26057.06c 3.29448E-06
+26058.06c 4.35120E-07
+24050.06c 3.62373E-06
+24052.06c 6.98800E-05
+24053.06c 7.92383E-06
+24054.06c 1.97241E-06
+08016.06c 2.71092E-04
+08017.06c 1.08480E-07
+50112.06c 4.64145E-06
+50114.06c 3.15810E-06
+50115.06c 1.62690E-06
+50116.06c 6.95739E-05
+50117.06c 3.67488E-05
+50118.06c 1.15893E-04
+50119.06c 4.11032E-05
+50120.06c 1.55895E-04
+50122.06c 2.21546E-05
+50124.06c 2.77052E-05
+
+

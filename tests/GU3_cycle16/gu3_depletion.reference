@@ -1,0 +1,31 @@
+set powdens 0.067167 fuel_3
+dep daystep 6
+set powdens 0.067833 fuel_3
+dep daystep 23.54
+set powdens 0.067833 fuel_3
+dep daystep 29.48
+set powdens 0.067833 fuel_3
+dep daystep 29.48
+set powdens 0.067833 fuel_3
+dep daystep 29.48
+set powdens 0.067833 fuel_3
+dep daystep 29.48
+set powdens 0.067833 fuel_3
+dep daystep 2.52
+set powdens 0.0625 fuel_3
+dep daystep 29.26
+set powdens 0.0625 fuel_3
+dep daystep 32
+set powdens 0.0625 fuel_3
+dep daystep 32
+set powdens 0.0625 fuel_3
+dep daystep 32
+set powdens 0.0625 fuel_3
+dep daystep 32
+set powdens 0.0625 fuel_3
+dep daystep 12.74
+set powdens 0.058036 fuel_3
+dep daystep 16.8
+set powdens 0 fuel_3
+dep decstep 34.2
+
